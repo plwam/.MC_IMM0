@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-repeat:round;
+    background: url('img/crane-8400990_128.jpg') no-repeat center/cover;
+    
+}
+/*.navbar {
+    background-color:rgb(215, 213, 213);
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.baniere{height: 200px;}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.navbar-nav li {
+    margin: 0 20px;
+    display: flex;
+}
+
+.navbar-nav a {
+    color: #0175f0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    color: #444546;
+    transition: color 0.3s ease;
+
+
+}
+
+
+.topbar{
+    display: flex;
+}*/
+.logo img {
+    width: 100px;
+    height: 90px;
+}
+.loca img {
+    width: 90px;
+    height: 90px;
+}
+.mainframe{
+    display: flex;
+}
+.nothing{
+    flex: 1.5;
+}
+.main{
+    flex: 5;
+}
+.bouto b{
+    background-color: #3795fa;
+    border-radius: 8px;
+    font: 14px sans-serif;
+    padding: 10px 10px;
+    animation: sileDown 10s;
+
+
+}
+.bouto b:hover{
+    background-color: #0175f0;
+    border-radius: 8px;
+    font: 14px sans-serif;
+    padding: 10px 10px;
+
+}
+.bouto a {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    animation: sileDown 10s;
+
+
+}
+.localisation{
+    margin: 15px;
+    display: flex;
+}
+.loca img {
+    background: rgb(172, 192, 198);
+    border-radius:50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.loca img:hover {
+    background: rgb(76, 91, 96);
+    border-radius:50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.crea{
+    display: flex;
+    justify-content: start;
+}
+.profil{
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px inset #6c6c6d;
+    padding: 10px 20px;
+    border-radius: 8px;
+
+
+}
+.intro p{
+    width: 80%;
+    margin-right: 0px;
+}
+.profil img {
+    width: 150px;height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    top: 15px;
+}
+.profil h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+.vision h5 {
+        color: #66adf8;
+        font-weight:800 ;
+}
+.vision p {
+        color: #373839;
+        font-weight:500 ;
+        font-size: 16px;
+}
